@@ -19,7 +19,7 @@ import pandas as pd
 import asyncio
 from aiohttp import ClientSession
 
-HEADERS={ "X-RapidAPI-Host": "dark-sky.p.rapidapi.com", "X-RapidAPI-Key": "31006866damsh45a64a87415d34fp1687f6jsneb50ece9bbfc"}
+HEADERS={ "X-RapidAPI-Host": "dark-sky.p.rapidapi.com", "X-RapidAPI-Key": "***YOUR KEY GOES HERE***"}
 
 # Method that returns a tuple with 2 items: First is a dictionary with all the addresses as keys and the values are
 # dictionaries with only current unix timestamps as keys and another dictionary with weather info as values.
